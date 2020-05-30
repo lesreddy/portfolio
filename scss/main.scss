@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 * {
   box-sizing: border-box;
@@ -28,7 +29,6 @@ h3 {
 
   &.sm-heading {
     margin-bottom: 2rem;
-    text-transform: uppercase;
     padding: 0.2rem 0.3rem;
     font-size: 1.25rem;
     font-weight: 300;
