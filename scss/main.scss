@@ -37,7 +37,7 @@ h3 {
 }
 
 .cilink {
-  color: #1fd6aa;
+  color: #e9890c;
 }
 
 a {
@@ -128,6 +128,7 @@ main {
 
   img {
     width: 100%;
+    height: auto;
     border: 3px #fff solid;
 
     &:hover {
@@ -135,6 +136,10 @@ main {
       border-color: $secondary-color;
       @include easeOut;
     }
+  }
+
+  i {
+    padding-right: 4px;
   }
 }
 

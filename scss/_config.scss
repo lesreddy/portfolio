@@ -1,7 +1,7 @@
 $primary-color: #fff;
-$secondary-color: #1fd6aa;
+$secondary-color: #1daf77;
 $show-home-image: true;
-$home-image: url(../img/abstract.jpg);
+$home-image: url(../img/sun-over-snow.jpg);
 $background-opacity: 0.7;
 
 @mixin easeOut {
@@ -14,6 +14,7 @@ $background-opacity: 0.7;
       background: $home-image;
       background-attachment: fixed;
       background-size: cover;
+      background-position: center top;
 
       &:after {
         content: '';
