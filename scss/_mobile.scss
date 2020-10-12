@@ -82,4 +82,12 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  .form {
+    width: 20rem;
+
+    label {
+      text-align: left;
+    }
+  }
 }
