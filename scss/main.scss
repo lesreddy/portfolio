@@ -191,6 +191,14 @@ main {
   flex-direction: column;
   width: 30rem;
 
+  input {
+    height: 2rem;
+  }
+
+  label {
+    padding: 5px 0;
+  }
+
   button {
     border: 2px #000000 solid;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

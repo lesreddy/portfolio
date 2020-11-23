@@ -237,6 +237,10 @@ main {
   display: flex;
   flex-direction: column;
   width: 30rem; }
+  .form input {
+    height: 2rem; }
+  .form label {
+    padding: 5px 0; }
   .form button {
     border: 2px #000000 solid;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
